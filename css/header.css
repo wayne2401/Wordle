@@ -1,0 +1,35 @@
+.head_line {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.head_line__left {
+  order: -1;
+  height: 50px;
+  width: 50px;
+}
+.head_line__mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head_line__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+
+.head_line__right img {
+  margin-left: 10px;
+}
+
+.head_line__mid {
+  font-family: "Rubik Microbe";
+  font-size: 80px;
+  font-style: normal;
+}
