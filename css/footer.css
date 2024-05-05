@@ -16,7 +16,7 @@ footer {
   gap: 5px;
 }
 
-.keyboard-block {
+.keyboard-column {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +38,6 @@ footer {
 }
 
 .backspace-img {
-  width: auto; /* 백스페이스 이미지의 너비 */
-  height: 40px; /* 높이는 자동으로 조정되도록 설정 */
+  width: auto;
+  height: 40px;
 }
